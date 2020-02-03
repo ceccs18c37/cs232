@@ -1,0 +1,73 @@
+CEC CS 18 C37
+Manu Mathew
+
+--------------------------------
+#1: Linux Commands
+---------------------------------
+
+
+Basic commands
+---------------------------------
+
+Input & Output 
+
+---------------
+mkdir ceccs18c37
+cd ceccs18c37
+mkdir cs232
+ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+mkdir 2701
+cd 2701
+script work.txt
+Script started, file is work.txt
+ls
+work.txt
+cat>abc.txt
+apple
+orange
+ls -a
+.  ..  abc.txt  work.txt
+ls -r
+work.txt  abc.txt
+ls -s
+total 4
+4 abc.txt  0 work.txt
+
+cat>test.txt
+blank
+^Z
+
+paste abc.txt test.txt
+\apple	blank
+orange	
+
+
+cat abc.txt /grep apple
+apple
+orange
+
+cat abc.txt |grep apple
+apple
+cat abc.txt | grep -v p| sort -r
+orange
+cat abc.txt | sort -r
+orange
+apple
+ exit script
+exit
+There are stopped jobs.
+
+
+
+
+
+
+
+
+
+-------------------
+Remarks if any:
+
+Learned basic linux commands like how to create a directory.
