@@ -1,0 +1,71 @@
+CEC CS 18 c37
+Manu Mathew
+
+-------------------------------
+#1: Aim/task
+---------------------------------
+Networking tasks (t3)
+
+---------------------------------
+
+Input: 
+---------------
+ifconfig
+ifconfig -a
+route
+route -n
+route add default gw 192.168.0.2
+ping 192.168.0.1 		
+cat /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> resolv.conf
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ ifconfig -a displays all available network interfaces
+	
+ route -n displays kernal routing table
+	
+ route add, is used add a new route to the table,
+ route add default gw 192.168.0.2, a default gateway in this case
+
+ echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+  is used to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#2: ssh,rsync,scp (t4)
+
+---------------------------------
+Input: 
+---------------
+
+ssh
+scp
+rsync
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ssh cs18c37@192.168.0.30 is used to open a secured connection to remote 
+ 
+scp abc.txt cs18c37@192.168.0.30:0302 is used to upload abc.txt to 0302
+ 
+rsync -av abc.txt is used to upload abc.txt to 0302
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
