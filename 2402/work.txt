@@ -1,0 +1,160 @@
+Script started on Monday 24 February 2020 09:33:42 AM IST
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> s[Kput index.html[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+0302                1002                examples.desktop    
+sftp> put[K[K[Kquit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ cd ..
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232[00m$ cd ..sftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put 2701
+Uploading 2701/ to /home/cs18c37/2701
+2701/ is not a regular file
+
+sftp> ls
+0302                1002                examples.desktop    
+sftp> mkdir 2701
+sftp> cd 2701[K[K[K[K[K[Kquit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232[00m$ cd 2701
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2701[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2701[00m$ cd 2701sftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put [K[K[Kcd 2701
+sftp> ls
+sftp> put work.txt
+Uploading work.txt to /home/cs18c37/2701/work.txt
+
+work.txt                                                                                                       0%    0     0.0KB/s   --:-- ETA
+work.txt                                                                                                     100% 5511     5.4KB/s   00:00    
+sftp> pt report[1@up[Ppp[1@utt report.txt
+Uploading report.txt to /home/cs18c37/2701/report.txt
+
+report.txt                                                                                                     0%    0     0.0KB/s   --:-- ETA
+report.txt                                                                                                   100%  870     0.9KB/s   00:00    
+sftp> ls
+report.txt   work.txt     
+sftp> ..
+Invalid command.
+
+sftp> cd ..
+sftp> pwd
+Remote working directory: /home/cs18c37
+sftp> qit
+Invalid command.
+
+sftp> ls
+0302                1002                2701                examples.desktop    
+sftp> qitquitit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2701[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2701[00m$ cd[K[Kcd ..
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232[00m$ cd 2402
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ cd 2402[2P..sftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put index.html
+Uploading index.html to /home/cs18c37/index.html
+
+index.html                                                                                                     0%    0     0.0KB/s   --:-- ETA
+index.html                                                                                                   100% 2767     2.7KB/s   00:00    
+sftp> quit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30cd 2402[Ksftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> rm index.html
+Removing /home/cs18c37/index.html
+sftp> ls
+0302                1002                2701                examples.desktop    
+sftp> exit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30
+^Z
+[1]+  Stopped                 sftp cs18c37@192.168.0.30
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put index.html
+Uploading index.html to /home/cs18c37/index.html
+
+index.html                                                                                                     0%    0     0.0KB/s   --:-- ETA
+index.html                                                                                                   100% 2767     2.7KB/s   00:00    
+sftp> qi[Kuit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30cd 2402[K[K[K[K[K[K[K[Kcd ..sftp cs18c37@192.168.0.30cd 2701[Ksftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> r[Krm index.html
+Removing /home/cs18c37/index.html
+sftp> \[Kls
+0302                1002                2701                examples.desktop    
+sftp> 
+sftp> quit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ sftp cs18c37@192.168.0.30[Ksftp cs18c37@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c37@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put index.html
+Uploading index.html to /home/cs18c37/index.html
+
+index.html                                                                                                     0%    0     0.0KB/s   --:-- ETA
+index.html                                                                                                   100% 2701     2.6KB/s   00:00    
+sftp> exit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ ifconfig
+ens34     Link encap:Ethernet  HWaddr 10:78:d2:3e:20:18  
+          inet addr:192.168.0.82  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::a8ec:a7bf:1118:f5fc/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:319553 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:17007 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:46873646 (46.8 MB)  TX bytes:2572984 (2.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2048 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2048 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:139424 (139.4 KB)  TX bytes:139424 (139.4 KB)
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ ^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c37/cs232/2402[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c37/cs232/2402[00m$ ^C
+]0;s

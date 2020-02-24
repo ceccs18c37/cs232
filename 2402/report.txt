@@ -1,0 +1,29 @@
+CEC CS 18 c37
+Manu Mathew
+
+--------------------------------
+#1: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+
+
+# Webpage name: index.html
+
+# sftp command is used to put the page to the server
+---------------------------------
+
+--------------------------------
+Output: or Input & Output 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs17d/cs18c37
+
+-------------------
+Remarks if any:
+
+Mac address: 10:78:d2:3e:20:18  
+ip address :192.168.0.82
+------------------------------------
+-------------------------------------
+
