@@ -1,0 +1,81 @@
+CEC CS 18 C37
+Manu Mathew
+
+Ip address: 192.168.42.85
+--------------------------------
+#1: Aim/task: Linux Installation (t6)
+---------------------------------
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+Installation of linux  
+ 
+Version used: Ubuntu 18.04.4 LTS
+
+---------------------------------
+
+
+--------------------------------
+Output:
+--------------------------------
+
+Screenshots (1-6).png shows the various steps during installation.
+
+Image 7.png shows the system details.
+
+-----------------
+Remarks if any:
+-----------------
+
+Ubuntu 18.04.4 LTS has been installed alongside windows
+
+-------------------------------------
+-------------------------------------
+
+
+#2: Setting up FTP and HTTP server (t7)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+Input 
+
+   The various steps are:
+
+# To install ftp server
+     sudo apt-get install vsftpd
+
+# To edit the server configuration
+     sudo gedit /etc/vsftpd.conf
+
+# To connect to ftp on local server
+     fpt localhost
+
+# To install apache2
+     sudo apt-get install apache2
+
+# To edit the HTML file
+     sudo gedit /var/www/html/index.html
+
+--------------------------------
+Output:
+
+# ftp server available at 192.168.42.85
+
+
+-----------------
+Remarks if any:
+
+# screenshot of webpage attached as capture.png
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+
+
