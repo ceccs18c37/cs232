@@ -1,0 +1,112 @@
+CEC CS 18 C37
+Manu Mathew
+
+Private Ip address: 192.168.42.85
+Public IP address: 137.97.158.94
+mac address: 06:f5:5d:39:f0:42
+--------------------------------
+#1: Aim/task: Package management(t8)(1)
+---------------------------------
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+   sudo apt-get update : To retrieve information about the packages
+	
+   sudo apt-get upgrade : To update packages that doesn't require package removal
+	
+   sudo apt full-upgrade : Used to upgrade all packages.Will remove currently 
+                           installed packages if needed.
+	
+   
+   sudo apt-get install nmap : To install nmap package
+       
+   sudo apt remove nmap : To remove nmap package
+     
+   sudo apt-get install tasksel : To install tasksel package
+
+   sudo apt remove tasksel : To remove tasksel package
+        
+   sudo apt-get install apache2 : To install apache2 package 
+       
+   sudo dpkg-reconfigure apache2 : To access the same prompts on installation
+      
+   apt-get install -s apache2 : To get information about packages installed with apache2
+
+   sudo apt-get autoremove : Removes dependencies that were installed with applications
+                            but are no longer needed.
+       
+
+   sudo apt list > package.txt : To list all installed packages.
+        
+---------------------------------
+
+
+--------------------------------
+Output:
+--------------------------------
+
+List of all installed packages : package.txt
+
+-----------------
+Remarks if any:
+-----------------
+
+size of package.txt is 3.6 MB
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Aim/task: Perl(t8)(2)
+--------------------------------
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+nano abc.pl : Used to edit a perl script using nano
+perl abc.pl : Used to execute a perl script named abc.pl in the terminal
+
+
+Perl programs:
+
+ 1. helloworld.pl - Hello world program
+	
+ 2. addnos.pl - Program to add 2 numbers
+    
+ 3. fact.pl - program to find factorial of a number 
+
+--------------------------------
+
+-------------------------------------
+Output: or Input & Output (whichever is applicable)
+-------------------------------------
+
+ 1. Helloworld
+
+ 2. Enter two numbers: 4
+    6
+
+    Sum is 10
+
+ 
+ 3. Enter a number: 6
+    The factorial is 720
+
+
+-----------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+
+
