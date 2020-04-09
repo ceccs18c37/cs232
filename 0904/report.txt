@@ -1,0 +1,59 @@
+CEC CS 18 C37
+Manu Mathew
+
+private ip address: 192.168.42.85 
+public ip address: 42.106.181.246
+--------------------------------
+#1: Aim/task : LAMP stack(t8)(3)
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+  
+LAMP Stack - Linux Apache MySQL PHP Stack
+ 
+
+  sudo apt-get update : To update all local packages 
+ 
+
+  1) To install Apache2:
+   		
+		sudo apt-get install apache2 - To install apache2
+                sudo service apache2 start - To start apache2 services
+
+
+  2) To install MySQL:
+
+		sudo apt-get install mysql-server - To install MySQL
+		sudo service mysql start - To start MySQL server
+
+  3) To install PHP:
+		
+		sudo apt-get install php libapache2-mod-php php-mysql - To install PHP 7.2
+
+  
+  sudo nano /var/www/html/info.php - To test php processing on the web server
+  sudo nano /var/www/html/index.php - To create a sample php page
+  
+  
+
+---------------------------------
+
+--------------------------------
+Output: 
+
+ php version info at page http://localhost/info.php 
+ 	screenshot: info.png 
+ 
+ php page can be viewed at http://localhost/index.php
+	screenshot: index.png
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
