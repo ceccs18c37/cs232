@@ -1,0 +1,77 @@
+CEC CS 18 C37
+Manu Mathew
+
+public ip: 42.106.181.127
+local ip: 192.168.42.85
+--------------------------------
+#1: Aim/task : Shell programming (s4)
+
+Shell script to show various system configuration like
+
+    - Currently logged user and his login name  
+    - Your current shell 
+    - Your home directory 
+    - Your operating system type 
+    - Your current path setting 
+    - Your current working directory 
+    - Number of users currently logged in
+---------------------------------
+Command/Shell script/Program name
+
+ config.sh - shell script
+
+ commands used : nano config.sh (creating & editing the script)
+		 chmod +x config.sh (permisson to execute the script)
+		 ./config.sh (executing the script)
+
+---------------------------------
+
+--------------------------------
+Output:
+
+config.png which shows the system configurations.
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+---------------------------------
+#2: Shell programming (s5)
+
+Shell script to show various system configuration like 
+     
+    - OS and version, release number, kernel version 
+    - All available shells 
+    - Computer CPU information like processor type, speed etc 
+    - Memory information 
+    - Hard disk information like size of hard-disk, cache memory, model etc 
+    - File system (Mounted) 
+---------------------------------
+Command/Shell script/Program name
+
+ config1.sh - shell script
+
+
+ commands used : nano config1.sh (creating & editing the script)
+		chmod +x config1.sh (permisson to execute the script)
+		./config1.sh  (executing the script)
+
+---------------------------------
+
+--------------------------------
+Output: 
+
+config1.txt - text file which contains the output of config1.sh
+
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
