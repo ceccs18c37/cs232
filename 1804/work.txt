@@ -1,0 +1,270 @@
+Script started on 2020-04-18 10:31:43+0530
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator . s h 
+
+(gedit:3136): Gtk-[1;33mWARNING[0m **: [34m10:35:04.111[0m: gtk_widget_size_allocate(): attempt to allocate widget with width -28 and height 32
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.sh
+./calculator.sh: line 2: y: command not found
+Enter the first number: 
+5
+Enter the second number: 
+6
+./calculator.sh: line 9: [: ==: unary operator expected
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shgedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+./calculator.sh: line 2: y: command not found
+Enter the first number: 
+5
+Enter the second number: 
+3
+./calculator.sh: line 9: [: ==: unary operator expected
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+./calculator.sh: line 2: y: command not found
+Enter the first number: 
+3
+Enter the second number: 
+8
+./calculator.sh: line 9: [: =: unary operator expected
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh[7P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh chmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+./calculator.sh: line 2:  y : command not found
+Enter the first number: 
+^[[A^[[A^[[A            ^X^C]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+./calculator.sh: line 5:  y : command not found
+Enter the first number: 
+7
+Enter the second number: 
+7
+./calculator.sh: line 12: [: ==: unary operator expected
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+^[[A    ]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+7
+Enter the second number: 
+21
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+./calculator.sh: line 26: calc: command not found
+Sum is 0
+Do you want to continue?(y/n)
+y
+./calculator.sh: line 46: [y: command not found
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+2
+./calculator.sh: line 29: calc: command not found
+Difference is 0
+Do you want to continue?(y/n)
+n
+./calculator.sh: line 46: [n: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+6
+Enter the second number: 
+2
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+8
+Sum is 0
+Do you want to continue?(y/n)
+n
+./calculator.sh: line 46: [n: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+^[[A^[[A        ]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+6
+Enter the second number: 
+2
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+./calculator.sh: line 26: 8: command not found
+Sum is 0
+Do you want to continue?(y/n)
+mn  f
+./calculator.sh: line 46: [f: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+6
+Enter the second number: 
+2
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+./calculator.sh: line 26: 8: command not found
+Sum is 0
+Do you want to continue?(y/n)
+y
+./calculator.sh: line 46: [y: command not found
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+5
+./calculator.sh: line 38: 0: command not found
+Remainder is 0
+Do you want to continue?(y/n)
+^[[A    n
+./calculator.sh: line 46: [n: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+67 
+Enter the second number: 
+2
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+` 1
+Sum is 8
+Do you want to continue?(y/n)
+y
+./calculator.sh: line 46: [y: command not found
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+5
+Remainder is 0
+Do you want to continue?(y/n)
+y
+./calculator.sh: line 46: [y: command not found
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+3
+Product is 12
+Do you want to continue?(y/n)
+y n
+./calculator.sh: line 46: [n: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ chmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+5
+Enter the second number: 
+7 8
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+Sum is 13
+Do you want to continue?(y/n)
+y
+./calculator.sh: line 46: [y: command not found
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+n
+Invalid Choice
+Do you want to continue?(y/n)
+n
+./calculator.sh: line 46: [n: command not found
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh 
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.sh
+[3J[H[2JEnter the first number: 
+7
+Enter the second number: 
+8
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+Sum is 15
+Do you want to continue?(y/n)
+y
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+2
+Difference is -1
+Do you want to continue?(y/n)
+n
+]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ ./calculator.shgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh [5P./calculator.shchmod +x calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;manu@manu-System-Product-Name: ~/ceccs18c37/cs232/1804[01;32mmanu@manu-System-Product-Name[00m:[01;34m~/ceccs18c37/cs232/1804[00m$ gedit calculator.sh [5P./calculator.shchmod +x calculator.sh[2Pgedit calculator.sh ssh cs18c37@14.139.189.217[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push[Ksftp cs18c37@14.139.189.217[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pgedit calculator.sh chmod +x calculator.sh[7P./calculator.shgedit calculator.sh [K./calculator.shgedit calculator.sh chmod +x calculator.sh[7P./calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexi t[K[Kt script
+exit
+bash: exit: script: numeric argument required
+
+Script done on 2020-04-18 11:33:50+0530

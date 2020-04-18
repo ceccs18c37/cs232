@@ -1,0 +1,72 @@
+CEC CS 18 C37
+Manu Mathew
+
+Local Ip: 192.168.42.85
+Public IP: 42.106.180.34
+
+--------------------------------
+#1: Aim/task: Shell programming (s6)
+---------------------------------
+A menu driven calculator with following functions:
+
+    1.Addition 
+    2.Subtraction
+    3.Multiplication 
+    4.Division
+    5.Modulus 
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+  calculator.sh - Shell script
+       
+---------------------------------
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+
+Enter the first number: 
+7
+Enter the second number: 
+8
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+1
+Sum is 15
+Do you want to continue?(y/n)
+y
+
+----MENU----
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Modulus
+Enter your choice: 
+2
+Difference is -1
+Do you want to continue?(y/n)
+n		
+-----------------
+Remarks if any:
+-----------------
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+
