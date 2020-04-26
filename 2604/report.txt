@@ -1,0 +1,44 @@
+CEC CS 18 C37
+Manu Mathew
+
+public ip: 137.97.177.82
+--------------------------------
+#1: Aim/task: Linux Installation(t6)
+---------------------------------
+Command/Shell script/Program name
+
+  - Linux installation using bootable USB
+  - Linux Version : Ubuntu 18.04.4 LTS
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ 
+Commands used:  
+ 		
+	- lsb_release -a : To display system details
+	- sudo update-grub : To update the grub configurations
+
+--------------------------------
+Output: 
+
+  - images 1-8(.jpg) shows the various steps during installation.
+ 
+  - image 9 shows the system details and results of update-grub command.
+ 
+  - Ubuntu 18.04.4 LTS  is installed alongside windows 10.
+
+
+-------------------
+Remarks if any:
+
+This task has been redone and submitted as i did not recieve any marks for my first submission. 
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
