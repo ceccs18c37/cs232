@@ -1,0 +1,59 @@
+CEC CS 18 C37
+Manu Mathew
+
+public ip: 42.106.182.17
+--------------------------------
+#1: Aim/task: Kernel compilation(t8)(4)
+---------------------------------
+Command/Shell script/Program name
+
+
+	- To download the latest source code
+	    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.6.7.tar.xz
+
+        - To extract the source code
+	    unxz -v linux-5.6.7.tar.xz  
+
+	- Obtain PGP Signature for the kernel
+	    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.6.7.tar.sign
+	 	 
+ 	- To verify the PGP Signature
+	    gpg --verify linux-5.6.7.tar.sign 
+		
+
+	- To extract linux tarball
+	    tar xvf linux-5.6.7.tar
+		 
+
+        - To change the directory
+	    cd linux-5.6.7
+       
+        - To create the configuration file
+	    cp -v /boot/config-$(uname -r) .config
+		 
+
+        - To install the various development tools required to compile the kernel
+	    sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+		 
+
+        - To compile the kernel
+	    make -j $(nproc) 
+
+---------------------------------
+
+
+--------------------------------
+Output: 
+
+ screenshot of the compiled files is attached as kernel.png
+ 
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
